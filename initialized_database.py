@@ -11,7 +11,7 @@ def initialize_database():
 
     USER_INFO = ["ID","user_id","user_name","create_time","total_matches","total_games","total_win_games", "total_income"]
     MATCH_INFO = ["ID",	"match_id",	"create_time","small_blind","big_blind","total_games"]
-    USER_MATCH_RELATION = ["ID","match_id",	"user_id",	"total_games","total_win_games","total_income","total_chip"]
+    USER_MATCH_RELATION = ["ID","match_id",	"user_id","is_on_table", "total_games","total_win_games","total_income","total_chip"]
     GAME_INFO = ["ID","game_id","total_table_chip","table_cards","is_flip","is_turn","is_river","create_time"]
     USER_GAME_RELATION = ["ID","game_id","user_id","user_cards","bet_chip","is_win","total_income","is_allin","is_fold", "position"]
 
