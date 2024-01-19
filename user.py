@@ -21,6 +21,7 @@ def register(database):
     message = "{}已完成注册".format(user_name)
     return message
 
+# history happened
 # 2. 查询用户数据 / 获取用户
 def get_user_info(user_id,database):
     workbook = load_workbook(database)
